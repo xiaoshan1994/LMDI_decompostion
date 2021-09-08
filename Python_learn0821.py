@@ -18,9 +18,9 @@ print(kai(4))
 x= [1,2,3,4,5]
 y= filter(lambda x: (x%2 == 0), x)
 y= filter(lambda x: x>2, x)
-y= filter( lambda x: x*x, x) # doesn't work as it only returns Ture in the specified function. More suitable for loops. 
+y= filter( lambda x: x*x, x) # doesn't work as it only returns Ture in the specified function. More suitable for loops.
 list(y)
-#%%  Map takes all objects in a list and allows you to apply a function to it 
+#%%  Map takes all objects in a list and allows you to apply a function to it
 x = [1,2,3,4,5]
 y = map(lambda x: x*x, x)
 list(y)
@@ -49,7 +49,7 @@ np6 = np5.reshape(2,3)
 np7 = np5.T
 
 #  Return a copy of the array collapsed into one dimension.
-#‘C’ means to flatten in row-major (C-style) order. 
-#‘F’ means to flatten in column-major (Fortran- style) order. 
+#‘C’ means to flatten in row-major (C-style) order.
+#‘F’ means to flatten in column-major (Fortran- style) order.
 np8 = np5.flatten()
 np9 = np5.flatten('F')
